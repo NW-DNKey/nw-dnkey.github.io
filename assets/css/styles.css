@@ -42,14 +42,13 @@ p.credits {
     font-size: 14px;
     color: #AAA;
 }
-a.neuroware {
-    width: 240px;
-    height: 50px;
-    background: url(../img/neuroware.png) no-repeat;
-    text-indent: -999em;
+p.credits a {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
 }
-p.credits a.neuroware {
-    margin: 20px auto;
+p.credits a:hover {
+    color: #FFFF99;
 }
     
 
